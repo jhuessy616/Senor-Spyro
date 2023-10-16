@@ -1,0 +1,168 @@
+header {
+      text-align: center;
+      background: url("https://www.dropbox.com/s/t5eju94xuo7cla4/spyro2.jpg?raw=1");
+      background-size: 33.3%;
+    }
+    a {
+      color: white;
+      font-size:22px;
+}
+    h1 {
+      margin: 40px;
+      font-size: 70px;
+      color: midnightblue;
+    }
+span{
+  background:rgba(0,0,0,0.8);
+  padding:0px 15px  
+}
+h2{
+  color:white;
+  font-size:30px;
+  margin:30px 0px 10px 0px;
+  
+}
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+
+   .overview ul {
+      padding: 10px;
+     background: rgba(0,0,0,0.75)
+}
+
+    
+     .overview li{
+      display: inline;
+      padding: 0px 10px 0px 10px; 
+      }
+
+.abouthero{
+  background:rgba(153,204,255,.8);
+}
+p {
+  font-size:18.5px;
+  text-align:center;
+  padding: 3px;
+}
+    
+
+
+
+
+
+
+
+
+   .facts { background: #003366;
+  border: solid;
+  border-width: 1px;
+  border-color: mediumblue;
+  margin: 0px 2px 15px 2px;
+  padding: 0px 17px 5px 17px;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.facts li{
+     color:white;
+     }
+.facts h3{
+  color:#99ccff;
+  font-size: 25px;
+}
+  
+.quotes {
+    font-family: Verdana, Geneva, sans-serif;
+  background:rgba(153,204,255,.9);
+  border: solid;
+  border-width: 1px;
+  border-color: mediumblue;
+  margin: 0px 2px 15px 2px;
+  padding: 0px 17px 5px 17px;
+  border-radius: 10px;
+}
+   
+.quotes h3{
+  font-size:22px;
+color:#003366
+}
+      
+.link a{
+  color:#ff04ce;
+}
+.link p{
+  text-align: left;
+}
+.link h3{
+  color:white;
+}
+
+.sighting p {text-align:center;
+  font-size:30px;
+  color:white;
+}
+.sighting h1 {
+  font-size:45px; 
+  color:white;
+  padding: 10px 10px 10px 10px
+}
+ .sighting ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.75); 
+    }
+.sighting li{
+      display: inline;
+      padding: 0px 10px 0px 10px; 
+      font-size:22px;
+      }
+.sighting header{
+  text-align: center;
+  background: url("https://www.dropbox.com/s/sz2flqcv8jmpvxp/spyro5.jpg?raw=1");
+  background-size: 33.3%;
+}
+video{
+  margin: 30px 0px 0px 0px;
+}
+      article {
+      max-width: 700px;
+      padding: 20px;
+      margin: 0 auto;
+}
+#background{
+background:url("https://www.dropbox.com/s/ztyjhovhbkzfk73/Screen%20Shot%202022-11-11%20at%2011.44.26%20PM.png?raw=1"); 
+  background-position: center top;
+  background-attachment: fixed;
+    }
+
+ @media (max-width: 500px) {
+      h1 {
+        font-size: 40px;
+   }
+   h2{
+     font-size:18px;
+   }
+   img{
+     width:65%;}
+   a{ 
+     font-size:12px;}
+   .link a{
+     font-size:18px;
+   }
+   video{
+     width:99%;
+   margin:-50px 0px 0px -10px;
+   }
+   .sighting h1{
+     font-size:27px;
+   }
+   .sighting p{
+     font-size:18px;  
+        }
+   #background{
+     background:url(https://www.dropbox.com/s/fpep6rinkncj6ln/spyro9.jpeg?raw=1);
+     background-size: cover;
+   }
+}
